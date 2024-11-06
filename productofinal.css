@@ -1,0 +1,715 @@
+@keyframes show{
+
+    from{
+        opacity: 0;
+        scale: 25%;
+    }
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+#contendor{
+    display: flexbox;
+}
+
+img {view-timeline: --image;
+    view-timeline-axis: block;
+
+animation-timeline: --image ;
+animation-name: show;
+animation-range: entry 4% cover 50%;
+}
+
+
+body
+{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,9,121,0.9780287114845938) 0%, rgba(244,0,255,1) 100%);
+}
+
+.button:hover {
+    border: solid #ffffff 4px;
+    background: #FF00EF;
+    background-image: -webkit-linear-gradient(top, #FF00EF, #A8EBFF);
+    background-image: -moz-linear-gradient(top, #FF00EF, #A8EBFF);
+    background-image: -ms-linear-gradient(top, #FF00EF, #A8EBFF);
+    background-image: -o-linear-gradient(top, #FF00EF, #A8EBFF);
+    background-image: -webkit-gradient(to bottom, #FF00EF, #A8EBFF);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+ }
+
+@media (max-width:700px) and (min-width:100px){
+
+    .button
+
+{
+    text-align: center;
+    font-family: impact;
+    font-size: 15px;
+    width: 150px;
+         height: 40px;
+         border-radius: 5px;
+         border: rgb(255, 255, 255) solid;
+         margin-top: 3px;
+        
+}
+    #div1
+    {
+       border: 4px;
+       height: 50px;
+       width: 100%; 
+       margin-bottom: 40px;
+       border-color: black; 
+       border-radius: 15px; 
+       margin-top: 20px;
+   }
+
+   #div2
+{
+    border: 4px solid black;
+    width: 99%; 
+    height: 70px; 
+    text-align: center;
+    background-color: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
+}
+
+#imagenprincipal{
+    width: 99%;
+    height: 0%;
+}
+
+#div3
+{
+    
+    width: 100%; 
+    height: 200px;
+    display: flexblox;
+    border-radius: 10px; 
+    background-color: black;
+    text-align: center;
+
+}
+
+.div4
+{
+    border: 3px solid black;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flexbox;
+    padding-top: 0px;
+    color: white;
+}
+
+#imagen1{
+    width: 100%;
+    height: 0%;
+    display: flexbox;
+    padding: 0px;
+    margin-left: -4px;
+    margin-top: 60px;
+}
+
+#imagen{
+    width: 99%;
+}
+
+
+#div5
+{
+   width: 99%;
+   background-color: white;
+   border: 4px solid black;
+   border-radius: 10px;
+   display: flexbox;
+   margin-top: -15px;
+   
+
+
+}
+
+#div15{
+    display: inline-flex;
+    width: 100%;
+}
+
+#div7
+{
+    border:1px solid black;
+    width:50%;
+    background-color: black;
+    display: flexbox;
+}
+#div8
+{
+    border:1px solid black;
+    width:50%;
+    background-color: black;
+    display: flexbox;
+
+}
+
+#div10{
+    display: flexbox;
+    width: 60%; 
+    position: center;
+}
+
+#div11
+{
+    position: center;
+    display: flexbox;
+    width: 100%;
+    text-align: center;
+}
+#div12
+{
+    display: flexbox;
+    width: 100%;
+    text-align: center;
+    position: center;
+}
+#div13
+{
+    display: flexbox;
+    width: 100%;
+    text-align:center; 
+    position: center;
+}
+
+.seleccionregistro{
+    width: 30%;
+    position: center;
+}
+
+#div14{
+    width: 30%;
+    text-align: left; 
+    margin-left: 4px;
+    position: center;
+}
+
+#div9{
+    width: 99%; 
+    text-align: center;
+    position: center;
+}
+
+
+#imagengaleria{
+width:60%;
+height: 0%;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 0px;
+position: center;
+}
+
+#titulogaleria{
+   width: 100%;
+    margin-top: 30px;
+    height: 0%;
+}
+
+#div-productos
+{
+    border-radius: 10px;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 2.5%;
+    background-color: black;
+}
+
+#div-productos2
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    height: 0%;
+    background-color: black;
+}
+
+.productos
+
+{
+margin-top: 10px;
+margin-bottom: 10px;
+width: 95%;
+height: 0%;
+border-radius: 10px ;
+}
+
+#productos2{
+    margin-top: 10px;
+margin-bottom: 10px;
+width: 95%;
+height: 0%;
+border-radius: 10px ;
+}
+
+
+td
+{   
+    
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+   
+}
+
+@media (max-width:1118px) and (min-width:700px){
+   
+    .button
+{
+    text-align: center;
+    font-family: impact;
+    font-size: 12px;
+    width: 130px;
+         height: 40px;
+         border-radius: 5px;
+         border: rgb(255, 255, 255) solid;
+         margin-top: 3px;
+        
+}
+    #div1
+    {
+       border: 4px;
+       height: 50px;
+       width: 100%; 
+       margin-bottom: 40px;
+       border-color: black; 
+       border-radius: 15px; 
+       margin-top: 20px;
+   }
+
+   #div2
+{
+    border: 4px solid black;
+    width: 99%; 
+    height: 70px; 
+    text-align: center;
+    background-color: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
+}
+
+#div3
+{
+    
+    width: 100%; 
+    height: 0%;
+    display: inline-flex;
+    border-radius: 10px; 
+    background-color: black;
+    text-align: center;
+
+}
+
+.div4
+{
+    border: 3px solid black;
+    font-size: 15px;
+    text-align: center;
+    width: 33%;
+    height: 50px;
+    border-radius: 10px;
+    display: flexbox;
+    padding-top: 0px;
+    color: white;
+}
+
+
+#imagen1{
+    width: 100%;
+    height: 0%;
+    display: flexbox;
+    padding: 0px;
+    margin-left: -4px;
+    margin-top: 60px;
+}
+
+#imagen{
+    width: 99%;
+    height: 0%;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+
+#div5
+{
+   width: 99%;
+   background-color: white;
+   border: 4px solid black;
+   border-radius: 10px;
+   display: flexbox;
+   margin-top: 40px;
+   
+
+
+}
+
+#div15{
+    display: inline-flex;
+    width: 100%;
+}
+
+#div7
+{
+    border:1px solid black;
+    width:50%;
+    background-color: black;
+    display: flexbox;
+}
+#div8
+{
+    border:1px solid black;
+    width:50%;
+    background-color: black;
+    display: flexbox;
+
+}
+
+#div10{
+    display: flexbox;
+    width: 60%; 
+    position: center;
+}
+
+#div11
+{
+    position: center;
+    display: flexbox;
+    width: 100%;
+    text-align: center;
+}
+#div12
+{
+    display: flexbox;
+    width: 100%;
+    text-align: center;
+    position: center;
+}
+#div13
+{
+    display: flexbox;
+    width: 100%;
+    text-align:center; 
+    position: center;
+}
+
+.seleccionregistro{
+    width: 30%;
+    position: center;
+}
+
+#div14{
+    width: 30%;
+    text-align: left; 
+    margin-left: 4px;
+    position: center;
+}
+
+#div9{
+    width: 99%; 
+    text-align: center;
+    position: center;
+}
+
+
+#imagengaleria{
+width:50%;
+height: 0%;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 0px;
+position: center;
+}
+
+#titulogaleria{
+   width: 100%;
+    margin-top: 30px;
+    height: 0%;
+}
+
+#div-productos
+{
+    border-radius: 10px;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 2.5%;
+    background-color: black;
+}
+
+.productos
+
+{
+margin-top: 10px;
+margin-bottom: 10px;
+width: 30%;
+height: 0%;
+border-radius: 10px ;
+}
+
+#div-productos2
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 90%;
+    height: 0%;
+    background-color: black;
+    margin-left: 40px;
+}
+
+#productos2{
+margin-top: 10px;
+margin-bottom: 10px;
+width: 40%;
+height: 0%;
+border-radius: 10px ;
+}
+
+td
+{   
+    
+    text-align: center;
+    border-radius: 10px;
+}
+
+}
+
+
+@media (max-width:2000px) and (min-width:1118px){
+
+
+    .button
+    {
+        text-align: center;
+        font-family: impact;
+        font-size: 15px;
+        width: 150px;
+             height: 50px;
+             border-radius: 5px;
+             border: rgb(255, 255, 255) solid;
+             margin-top: 3px;
+            
+    }
+        #div1
+        {
+           border: 4px;
+           height: 50px;
+           width: 100%; 
+           margin-bottom: 40px;
+           border-color: black; 
+           border-radius: 15px; 
+           margin-top: 20px;
+       }
+    
+       #div2
+    {
+        border: 4px solid black;
+        width: 99%; 
+        height: 70px; 
+        text-align: center;
+        background-color: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
+    }
+    
+    #div3
+    {
+        
+        width: 100%; 
+        height: 0%;
+        display: inline-flex;
+        border-radius: 10px; 
+        background-color: black;
+        text-align: center;
+    
+    }
+    
+    .div4
+    {
+        border: 3px solid black;
+        font-size: 15px;
+        text-align: center;
+        width: 33%;
+        height: 65px;
+        border-radius: 10px;
+        display: flexbox;
+        padding-top: 0px;
+        color: white;
+    }
+    
+    
+    #imagen1{
+        width: 100%;
+        height: 0%;
+        display: flexbox;
+        padding: 0px;
+        margin-left: -4px;
+        margin-top: 60px;
+        text-align: center;
+    }
+    
+    #imagen{
+        width: 50%;
+        height: 0%;
+        margin-top: -50px;
+        margin-bottom: -50px;
+    }
+    
+    
+    #div5
+    {
+       width: 99%;
+       background-color: white;
+       border: 4px solid black;
+       border-radius: 10px;
+       display: flexbox;
+       margin-top: 40px;
+       
+    }
+    
+    #div15{
+        display: inline-flex;
+        width: 100%;
+    }
+    
+    #div7
+    {
+        border:1px solid black;
+        width:50%;
+        background-color: black;
+        display: flexbox;
+    }
+    #div8
+    {
+        border:1px solid black;
+        width:50%;
+        background-color: black;
+        display: flexbox;
+    
+    }
+    
+    #div10{
+        display: flexbox;
+        width: 60%; 
+        position: center;
+    }
+    
+    #div11
+    {
+        position: center;
+        display: flexbox;
+        width: 100%;
+        text-align: center;
+    }
+    #div12
+    {
+        display: flexbox;
+        width: 100%;
+        text-align: center;
+        position: center;
+    }
+    #div13
+    {
+        display: flexbox;
+        width: 100%;
+        text-align:center; 
+        position: center;
+    }
+    
+    .seleccionregistro{
+        width: 30%;
+        position: center;
+    }
+    
+    #div14{
+        width: 30%;
+        text-align: left; 
+        margin-left: 4px;
+        position: center;
+    }
+    
+    #div9{
+        width: 99%; 
+        text-align: center;
+        position: center;
+    }
+
+    
+    #imagengaleria{
+    width:30%;
+    height: 0%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+    position: center;
+    }
+    
+    #titulogaleria{
+       width: 100%;
+        margin-top: 30px;
+        height: 0%;
+    }
+    
+    #div-productos
+    {
+        border-radius: 10px;
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 2.5%;
+        background-color: black;
+    }
+    
+    .productos
+    
+    {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    height: 0%;
+    border-radius: 10px ;
+    }
+    
+    #div-productos2
+    {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 90%;
+        height: 0%;
+        background-color: black;
+        margin-left: 40px;
+    }
+    
+    #productos2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 40%;
+    height: 0%;
+    border-radius: 10px ;
+    }
+    
+    td
+    {   
+        
+        text-align: center;
+        border-radius: 10px;
+    }
+
+}
